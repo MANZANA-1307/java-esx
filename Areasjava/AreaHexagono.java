@@ -15,6 +15,8 @@ public class AreaHexagono {
         double area = (perimetro * apotema) / 2;
 
         System.out.printlnln("El área del hexágono es: " + area);
+
+        scanner.close();
     }
 }
 
