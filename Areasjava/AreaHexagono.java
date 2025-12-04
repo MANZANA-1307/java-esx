@@ -1,7 +1,7 @@
 package Areasjava;
 import java.util.Scanner;
 
-public class AreaHeagono {
+public class AreaHexagono {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -9,8 +9,7 @@ public class AreaHeagono {
         System.out.println("Introduce la longitud de un lado del hexágono: ");
         double lado = scanner.nextDouble();
 
-        double perimetro = 6 * lado;
-
+        double perimetro = OpercacionesArea.OprecionesHexagono(lado);
         double apotema = lado * (Math.sqrt(3) / 2);
 
         double area = (perimetro * apotema) / 2;

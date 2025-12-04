@@ -17,9 +17,8 @@ package Areasjava;
    
    double lado = sc.nextDouble();
    
-   double area =lado * lado;
-   
-
+   double area =OpercacionesArea.MultiplicaionCuadrado(lado);   
    System.out.println("El area del cuadrado es:" + area);
-   }
-   }
+   
+   } 
+  }

@@ -9,8 +9,7 @@ public class AreaCirculo {
         System.out.print("Introduce el radio del círculo: ");
         double radio = scanner.nextDouble();
         
-        double area = Math.PI * Math.pow(radio, 2);
-        
+        double area = OpercacionesArea.MultiplicacionCirculo(radio);
         System.out.printf("El área del círculo es: %.2f\n", area);
         
         scanner.close();

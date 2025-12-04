@@ -11,8 +11,7 @@ public class AreaTriangulo {
         System.out.print("Ingresa la altura del triángulo: ");
         double altura = scanner.nextDouble();
 
-        double area = (base * altura) / 2;
-
+        double area = OpercacionesArea.OpercionTrinagulo(base, altura);
         System.out.println("El área del triángulo es: " + area);
 
         scanner.close();
