@@ -17,9 +17,9 @@ package Areasjava;
    
    double lado = sc.nextDouble();
    
-   double area =lado er0+''* lado;
+   double area =lado * lado;
    
 
-   System.out.println("El area del cuadrado es: );
+   System.out.println("El area del cuadrado es:" + area);
    }
    }
